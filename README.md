@@ -15,13 +15,32 @@ npm install --save react-listener
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-listener'
-import 'react-listener/dist/index.css'
+import { Listener } from 'react-listener'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+function App() {
+  return (
+    <Listener
+      event="message"
+      identifier={event => event.details.id === 'heartBeat'}
+    >
+      {
+        (event) =>
+          <UserAgent event={event} />
+      }
+    </Listener>
+  );
+}
+
+function UserAgent(props) {
+  return (
+    <div>
+      {props.event ? (
+        <div>Your ping: {props.event.details.ping}</div>
+      ) : (
+        "Loading ..."
+      )}
+    </div>
+  );
 }
 ```
 
