@@ -1,6 +1,6 @@
 {
-  "short_name": "react-listener",
-  "name": "react-listener",
+  "short_name": "rc-listener",
+  "name": "rc-listener",
   "icons": [
     {
       "src": "favicon.ico",

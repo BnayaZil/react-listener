@@ -1,5 +1,5 @@
 {
-  "name": "react-listener",
+  "name": "rc-listener",
   "version": "1.0.0",
   "description": "An event-listener wrapped in a react component",
   "author": "BnayaZil",
@@ -75,6 +75,7 @@
     "react",
     "component",
     "listener",
-    "react-listener"
+    "react-listener",
+    "rc-listener"
   ]
 }

@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-listener'
-import 'react-listener/dist/index.css'
+import { Listener } from 'react-listener'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Listener text="Create React Library Example 😄" />
 }
 
 export default App

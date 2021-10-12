@@ -1,4 +1,4 @@
-# react-listener
+# rc-listener
 
 > An event-listener wrapped in a react component
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-listener
+npm install --save rc-listener
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save react-listener
 ```tsx
 import React, { Component } from 'react'
 
-import { Listener } from 'react-listener'
+import { Listener } from 'rc-listener'
 
 function App() {
   return (
